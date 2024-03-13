@@ -39,7 +39,4 @@ int getClosestMed(int rdnum1, int rdnum2, int rdnum3)
         }
         
 }
-        int main (){
-                srand(time(0));
-                return (0);
-        }
+    
