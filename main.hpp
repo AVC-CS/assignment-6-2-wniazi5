@@ -13,12 +13,18 @@ int getClosestMed(int, int, int);
 // complete two functions
 int getRandom(void)
 {
-        /***************************************************
-         * Code your program here
-         ***************************************************/
+        return rand() % 100;
+        
 }
+
 int getClosestMed(int rdnum1, int rdnum2, int rdnum3)
+
+
 {
+        int mean = ((rdnum1 + rdnum2 + rdnum3) / 3)
+
+        int dif1 = abs( rdnum1 - mean);
+        int 
         /***************************************************
          * Code your program here
          ***************************************************/
